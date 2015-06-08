@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		494104F71B2541AF00FA3594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494104F61B2541AF00FA3594 /* main.m */; };
 		494104FA1B2541AF00FA3594 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494104F91B2541AF00FA3594 /* AppDelegate.m */; };
-		494104FD1B2541AF00FA3594 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494104FC1B2541AF00FA3594 /* ViewController.m */; };
-		494105001B2541AF00FA3594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494104FE1B2541AF00FA3594 /* Main.storyboard */; };
 		494105021B2541AF00FA3594 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494105011B2541AF00FA3594 /* Images.xcassets */; };
 		494105051B2541AF00FA3594 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494105031B2541AF00FA3594 /* LaunchScreen.xib */; };
 		494105111B2541AF00FA3594 /* ContactViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494105101B2541AF00FA3594 /* ContactViewerTests.m */; };
+		4941051D1B2541F800FA3594 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4941051B1B2541F800FA3594 /* ContactTableViewController.m */; };
+		4941051E1B2541F800FA3594 /* ContactTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4941051C1B2541F800FA3594 /* ContactTableViewController.xib */; };
+		494105241B2542FB00FA3594 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494105221B2542FB00FA3594 /* ContactViewController.m */; };
+		494105251B2542FB00FA3594 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494105231B2542FB00FA3594 /* ContactViewController.xib */; };
+		494105291B25443300FA3594 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 494105281B25443300FA3594 /* Contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		494104F61B2541AF00FA3594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		494104F81B2541AF00FA3594 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		494104F91B2541AF00FA3594 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		494104FB1B2541AF00FA3594 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		494104FC1B2541AF00FA3594 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		494104FF1B2541AF00FA3594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		494105011B2541AF00FA3594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		494105041B2541AF00FA3594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4941050A1B2541AF00FA3594 /* ContactViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4941050F1B2541AF00FA3594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494105101B2541AF00FA3594 /* ContactViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewerTests.m; sourceTree = "<group>"; };
+		4941051A1B2541F800FA3594 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		4941051B1B2541F800FA3594 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		4941051C1B2541F800FA3594 /* ContactTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewController.xib; sourceTree = "<group>"; };
+		494105211B2542FB00FA3594 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		494105221B2542FB00FA3594 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		494105231B2542FB00FA3594 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		494105271B25443300FA3594 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		494105281B25443300FA3594 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +91,8 @@
 			children = (
 				494104F81B2541AF00FA3594 /* AppDelegate.h */,
 				494104F91B2541AF00FA3594 /* AppDelegate.m */,
-				494104FB1B2541AF00FA3594 /* ViewController.h */,
-				494104FC1B2541AF00FA3594 /* ViewController.m */,
-				494104FE1B2541AF00FA3594 /* Main.storyboard */,
+				494105201B2542D200FA3594 /* Controllers */,
+				494105261B25440600FA3594 /* Models */,
 				494105011B2541AF00FA3594 /* Images.xcassets */,
 				494105031B2541AF00FA3594 /* LaunchScreen.xib */,
 				494104F41B2541AF00FA3594 /* Supporting Files */,
@@ -117,6 +124,28 @@
 				4941050F1B2541AF00FA3594 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		494105201B2542D200FA3594 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4941051A1B2541F800FA3594 /* ContactTableViewController.h */,
+				4941051B1B2541F800FA3594 /* ContactTableViewController.m */,
+				4941051C1B2541F800FA3594 /* ContactTableViewController.xib */,
+				494105211B2542FB00FA3594 /* ContactViewController.h */,
+				494105221B2542FB00FA3594 /* ContactViewController.m */,
+				494105231B2542FB00FA3594 /* ContactViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		494105261B25440600FA3594 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				494105271B25443300FA3594 /* Contact.h */,
+				494105281B25443300FA3594 /* Contact.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +228,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494105001B2541AF00FA3594 /* Main.storyboard in Resources */,
 				494105051B2541AF00FA3594 /* LaunchScreen.xib in Resources */,
+				494105251B2542FB00FA3594 /* ContactViewController.xib in Resources */,
+				4941051E1B2541F800FA3594 /* ContactTableViewController.xib in Resources */,
 				494105021B2541AF00FA3594 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494104FD1B2541AF00FA3594 /* ViewController.m in Sources */,
 				494104FA1B2541AF00FA3594 /* AppDelegate.m in Sources */,
+				494105241B2542FB00FA3594 /* ContactViewController.m in Sources */,
+				494105291B25443300FA3594 /* Contact.m in Sources */,
+				4941051D1B2541F800FA3594 /* ContactTableViewController.m in Sources */,
 				494104F71B2541AF00FA3594 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +276,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		494104FE1B2541AF00FA3594 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				494104FF1B2541AF00FA3594 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		494105031B2541AF00FA3594 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
