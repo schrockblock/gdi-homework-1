@@ -16,7 +16,6 @@
 		4941051E1B2541F800FA3594 /* ContactTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4941051C1B2541F800FA3594 /* ContactTableViewController.xib */; };
 		494105241B2542FB00FA3594 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494105221B2542FB00FA3594 /* ContactViewController.m */; };
 		494105251B2542FB00FA3594 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494105231B2542FB00FA3594 /* ContactViewController.xib */; };
-		494105291B25443300FA3594 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 494105281B25443300FA3594 /* Contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +45,6 @@
 		494105211B2542FB00FA3594 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		494105221B2542FB00FA3594 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		494105231B2542FB00FA3594 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
-		494105271B25443300FA3594 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
-		494105281B25443300FA3594 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +139,6 @@
 		494105261B25440600FA3594 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				494105271B25443300FA3594 /* Contact.h */,
-				494105281B25443300FA3594 /* Contact.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -251,7 +246,6 @@
 			files = (
 				494104FA1B2541AF00FA3594 /* AppDelegate.m in Sources */,
 				494105241B2542FB00FA3594 /* ContactViewController.m in Sources */,
-				494105291B25443300FA3594 /* Contact.m in Sources */,
 				4941051D1B2541F800FA3594 /* ContactTableViewController.m in Sources */,
 				494104F71B2541AF00FA3594 /* main.m in Sources */,
 			);
