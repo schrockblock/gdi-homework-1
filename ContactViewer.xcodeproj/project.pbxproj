@@ -16,6 +16,7 @@
 		4941051E1B2541F800FA3594 /* ContactTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4941051C1B2541F800FA3594 /* ContactTableViewController.xib */; };
 		494105241B2542FB00FA3594 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494105221B2542FB00FA3594 /* ContactViewController.m */; };
 		494105251B2542FB00FA3594 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494105231B2542FB00FA3594 /* ContactViewController.xib */; };
+		496C47ED1B28F5490032FE1C /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 496C47EC1B28F5490032FE1C /* Contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		494105211B2542FB00FA3594 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		494105221B2542FB00FA3594 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		494105231B2542FB00FA3594 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		496C47EB1B28F5490032FE1C /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		496C47EC1B28F5490032FE1C /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				494104F81B2541AF00FA3594 /* AppDelegate.h */,
 				494104F91B2541AF00FA3594 /* AppDelegate.m */,
+				496C47EB1B28F5490032FE1C /* Contact.h */,
+				496C47EC1B28F5490032FE1C /* Contact.m */,
 				494105201B2542D200FA3594 /* Controllers */,
 				494105261B25440600FA3594 /* Models */,
 				494105011B2541AF00FA3594 /* Images.xcassets */,
@@ -246,6 +251,7 @@
 			files = (
 				494104FA1B2541AF00FA3594 /* AppDelegate.m in Sources */,
 				494105241B2542FB00FA3594 /* ContactViewController.m in Sources */,
+				496C47ED1B28F5490032FE1C /* Contact.m in Sources */,
 				4941051D1B2541F800FA3594 /* ContactTableViewController.m in Sources */,
 				494104F71B2541AF00FA3594 /* main.m in Sources */,
 			);
@@ -434,6 +440,7 @@
 				494105161B2541AF00FA3594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494105171B2541AF00FA3594 /* Build configuration list for PBXNativeTarget "ContactViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +449,7 @@
 				494105191B2541AF00FA3594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

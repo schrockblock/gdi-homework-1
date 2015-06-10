@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>01BE3927-0AFC-4894-B803-3E347A5C856D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ContactViewer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>08AB635F90C36486C7C4AD0D4355467A6E8A5C3C</key>
 		<string>github.com:schrockblock/gdi-homework-1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ContactViewer.xcodeproj/project.xcworkspace</string>
+	<string>ContactViewer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>08AB635F90C36486C7C4AD0D4355467A6E8A5C3C</key>
