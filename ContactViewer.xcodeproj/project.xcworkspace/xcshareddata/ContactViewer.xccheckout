@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>01BE3927-0AFC-4894-B803-3E347A5C856D</string>
+	<string>FDB97C4B-1D4A-45E5-9C2B-52F8172A78E8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ContactViewer</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>08AB635F90C36486C7C4AD0D4355467A6E8A5C3C</key>
 		<string>github.com:schrockblock/gdi-homework-1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ContactViewer.xcodeproj</string>
+	<string>ContactViewer/ContactViewer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>08AB635F90C36486C7C4AD0D4355467A6E8A5C3C</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:schrockblock/gdi-homework-1.git</string>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>08AB635F90C36486C7C4AD0D4355467A6E8A5C3C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ContactViewer</string>
+			<string>apps</string>
 		</dict>
 	</array>
 </dict>

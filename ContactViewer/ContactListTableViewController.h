@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ContactListTableViewController.h
 //  ContactViewer
 //
 //  Created by Elliot Schrock on 6/17/15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface ContactListTableViewController : UITableViewController
 
 @end
-
